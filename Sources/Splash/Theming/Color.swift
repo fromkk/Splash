@@ -4,11 +4,11 @@
  *  MIT license - see LICENSE.md
  */
 
-#if os(iOS)
+#if canImport(UIKit)
 import UIKit
 public typealias Color = UIColor
-#elseif os(macOS)
-import Cocoa
+#elseif canImport(AppKit)
+import AppKit
 public typealias Color = NSColor
 #endif
 

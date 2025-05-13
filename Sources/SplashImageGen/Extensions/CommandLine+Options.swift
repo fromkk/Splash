@@ -4,7 +4,7 @@
  *  MIT license - see LICENSE.md
  */
 
-#if os(macOS)
+#if canImport(AppKit)
 
 import Foundation
 import Splash
